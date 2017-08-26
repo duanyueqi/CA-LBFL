@@ -5,12 +5,15 @@ Yueqi Duan, Jiwen Lu, Jiangjiang Feng, and Jie Zhou, Context-Aware Local Binary 
 
 
 --Demo:
+
 run 'demo.m' to test on FERET set using pre-learned CA-LBFL parameters (R=3)
 
 --MATLAB FUNCTIONS:
 
 extractFeature.m :  Extract face representations based on CA-LBFL
+
 calbfl_train.m : Train W and D for CA-LBFL
+
 calbfl_test.m : Extract CA-LBFL features for each face image
 
 calbfl.mat : pre-learned CA-LBFL parameters.
