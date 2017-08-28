@@ -22,7 +22,7 @@ params.n_iter = 20;
 params.coeff = 1000;
 % params.R = 3;
 
-%% Choose to train new W and D or load pre-trained ones
+%% Choose to train new W and D or to load pre-trained ones
 % calbfl_train;
 load calbfl.mat
 
